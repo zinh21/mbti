@@ -141,13 +141,13 @@ st.markdown("""
 # MBTI별 포켓몬 데이터
 MBTI_POKEMON = {
     "INTJ": {
-        "name": "뮤츠",
-        "english_name": "mewtwo",
-        "emoji": "🧠",
-        "description": "전략적이고 독립적인 당신! 압도적인 지능과 강인한 의지를 가진 뮤츠처럼 혼자서도 완벽하게 계획을 세우고 실행하는 타입이에요. 감정보다 논리를 중시하며 자신만의 세계관이 뚜렷해요.",
-        "traits": ["🎯 완벽한 전략가", "🔬 분석적 사고", "👑 독립적 리더", "💡 미래를 내다보는 눈"],
-        "type_color": "#7B68EE",
-        "message": "당신은 포켓몬 세계의 숨겨진 천재! 🌟"
+        "name": "기라티나",
+        "english_name": "giratina-altered",
+        "emoji": "👁️",
+        "description": "어둠 속에서도 혼자 빛나는 당신! 역세계를 지배하는 기라티나처럼 남들이 가지 않는 길을 개척하고, 독자적인 세계관으로 모든 것을 꿰뚫어 보는 전략의 달인이에요. 겉은 차가워 보여도 내면엔 엄청난 신념이 숨어있죠!",
+        "traits": ["👁️ 꿰뚫는 통찰력", "🌑 독립적 세계관", "🔮 장기적 전략가", "🗝️ 비밀스러운 카리스마"],
+        "type_color": "#4A235A",
+        "message": "당신은 남들이 모르는 세계를 보고 있어요! 👁️"
     },
     "INTP": {
         "name": "폴리곤Z",
@@ -168,16 +168,16 @@ MBTI_POKEMON = {
         "message": "세상을 이끌어갈 리더가 바로 당신! 🌊"
     },
     "ENTP": {
-        "name": "팬텀",
-        "english_name": "gengar",
-        "emoji": "😈",
-        "description": "재치있고 도발적인 당신! 유쾌하게 장난치면서도 사실은 엄청난 지능을 숨기고 있는 팬텀처럼, 토론을 즐기고 기발한 아이디어로 분위기를 이끌어요. 한 번 빠져들면 헤어나올 수 없는 매력이 있죠!",
-        "traits": ["😄 유쾌한 에너자이저", "🧩 창의적 문제해결", "🗣️ 달변가", "⚡ 즉흥적 아이디어"],
-        "type_color": "#9B59B6",
-        "message": "당신의 아이디어는 세상을 바꿔요! 💜"
+        "name": "로토무",
+        "english_name": "rotom",
+        "emoji": "⚡",
+        "description": "어디든 침투하고 무엇이든 바꿔버리는 당신! 온갖 기계에 빙의해 새로운 형태로 변신하는 로토무처럼, 기발한 아이디어로 판을 뒤집고 토론에서 불꽃을 튀기는 천재 트러블메이커예요. 지루함은 사전에 없죠!",
+        "traits": ["⚡ 폭발적 아이디어", "🔀 예측불가 변신", "🗣️ 타고난 토론꾼", "🔧 창의적 해킹력"],
+        "type_color": "#F0A500",
+        "message": "당신이 있으면 절대 지루할 틈이 없어요! ⚡"
     },
     "INFJ": {
-        "name": "루gia",
+        "name": "루기아",
         "english_name": "lugia",
         "emoji": "🌊",
         "description": "깊은 통찰력을 가진 당신! 바다의 수호자 루기아처럼 조용하지만 강력한 존재감을 가지고 있어요. 타인의 감정을 잘 이해하고, 더 나은 세상을 위한 이상을 품고 있는 특별한 영혼이에요.",
@@ -222,13 +222,13 @@ MBTI_POKEMON = {
         "message": "당신은 모두가 믿고 의지하는 기둥이에요! 🛡️"
     },
     "ISFJ": {
-        "name": "토게피",
-        "english_name": "togepi",
-        "emoji": "🥚",
-        "description": "따뜻하고 헌신적인 당신! 행복과 행운을 나눠주는 토게피처럼, 주변 사람들을 세심하게 돌보고 배려하는 따뜻한 마음의 소유자예요. 조용하지만 없어서는 안 될 소중한 존재예요!",
-        "traits": ["💕 따뜻한 배려심", "🤲 헌신적 도움", "🏠 안정 추구", "🌺 세심한 관찰력"],
-        "type_color": "#FFB6C1",
-        "message": "당신의 따뜻함이 세상을 포근하게 해요! 🥰"
+        "name": "나무지기",
+        "english_name": "turtwig",
+        "emoji": "🌿",
+        "description": "묵묵히 곁을 지켜주는 당신! 머리 위에 새싹을 틔우며 성실하게 자라나는 나무지기처럼, 언제나 조용하고 따뜻하게 주변을 돌보며 신뢰를 쌓아가요. 당신이 없으면 모두가 허전함을 느끼는 소중한 존재예요!",
+        "traits": ["🌱 성실한 돌봄", "🏡 안정적인 버팀목", "💚 헌신적인 마음", "🤫 조용한 배려"],
+        "type_color": "#27AE60",
+        "message": "당신의 따뜻함이 모두의 쉼터가 돼요! 🌿"
     },
     "ESTJ": {
         "name": "괴력몬",
@@ -267,34 +267,32 @@ MBTI_POKEMON = {
         "message": "당신의 가능성은 무한해요! 이브이처럼 ✨"
     },
     "ESTP": {
-        "name": "번치코",
-        "english_name": "incineroar",
-        "emoji": "🔥",
-        "description": "모험적이고 대담한 당신! 링 위의 파이터 번치코처럼, 어떤 상황에서도 즉흥적으로 대처하고 스릴을 즐기는 액션파예요. 관찰력이 뛰어나고 현실적인 해결사로서 주목받는 것을 즐겨요!",
-        "traits": ["⚡ 즉흥적 실행력", "👀 날카로운 관찰력", "🎢 모험 추구", "🏆 경쟁적 도전"],
-        "type_color": "#FF4500",
-        "message": "인생은 모험이고, 당신이 주인공이에요! 🔥"
+        "name": "모래두지",
+        "english_name": "sandslash",
+        "emoji": "🌪️",
+        "description": "순간 판단력이 남다른 당신! 날카로운 가시로 어떤 위기도 순식간에 돌파하는 모래두지처럼, 현장에서 빠르게 상황을 읽고 몸으로 부딪혀 해결하는 액션파예요. 말보다 행동이 먼저인 진짜 승부사죠!",
+        "traits": ["⚡ 번개 같은 반응속도", "🎯 현장 중심 해결사", "🏆 타고난 승부욕", "🌪️ 대담한 돌파력"],
+        "type_color": "#C0392B",
+        "message": "현장에선 당신이 제일 빛나요! 🌪️"
     },
     "ESFP": {
-        "name": "푸린",
-        "english_name": "jigglypuff",
-        "emoji": "🎤",
-        "description": "활발하고 즐거움을 주는 당신! 노래와 퍼포먼스로 모두를 행복하게 만드는 푸린처럼, 어디서든 분위기를 띄우고 사람들에게 웃음을 선사하는 타고난 엔터테이너예요. 지금 이 순간을 마음껏 즐겨요!",
-        "traits": ["🎉 타고난 엔터테이너", "💃 자유로운 표현", "😄 긍정적 에너지", "🤗 사람 좋아함"],
-        "type_color": "#FF69B4",
-        "message": "당신이 있는 곳이 언제나 파티예요! 🎤"
+        "name": "마임맨",
+        "english_name": "mr-mime",
+        "emoji": "🎭",
+        "description": "타고난 퍼포머인 당신! 보이지 않는 벽도 뚝딱 만들어내며 관중을 홀리는 마임맨처럼, 어디서든 자연스럽게 주목받고 분위기를 주도하는 엔터테이너예요. 진지한 척해도 결국엔 웃음을 참지 못하죠!",
+        "traits": ["🎭 천재적 퍼포먼스", "🎉 분위기 메이커", "😄 웃음 제조기", "💃 자유분방한 표현"],
+        "type_color": "#8E44AD",
+        "message": "당신이 등장하면 무대가 시작돼요! 🎭"
     }
 }
 
 # 포켓몬 이미지 가져오기
 def get_pokemon_image(pokemon_name):
     try:
-        # PokeAPI에서 공식 이미지 URL 가져오기
         api_url = f"https://pokeapi.co/api/v2/pokemon/{pokemon_name.lower()}"
         response = requests.get(api_url, timeout=5)
         if response.status_code == 200:
             data = response.json()
-            # 공식 아트워크 이미지 URL
             official_art = data['sprites']['other']['official-artwork']['front_default']
             return official_art
     except:
@@ -310,16 +308,16 @@ def main():
             <p class="subtitle-text">✨ 나의 MBTI와 닮은 포켓몬은 누구일까요? ✨</p>
         </div>
     """, unsafe_allow_html=True)
-    
+
     # 설명
     st.markdown("### 🎮 내 MBTI 유형을 선택해보세요!")
     st.markdown("총 **16가지** MBTI 유형에 맞는 포켓몬을 추천해드려요 🌟")
-    
+
     st.markdown("---")
-    
+
     # MBTI 선택
     mbti_list = list(MBTI_POKEMON.keys())
-    
+
     col1, col2 = st.columns([3, 1])
     with col1:
         selected_mbti = st.selectbox(
@@ -331,26 +329,26 @@ def main():
         st.markdown("<br>", unsafe_allow_html=True)
         if selected_mbti != "선택해주세요 👇":
             st.markdown(f"<div class='mbti-tag'>{selected_mbti}</div>", unsafe_allow_html=True)
-    
+
     st.markdown("<br>", unsafe_allow_html=True)
-    
+
     # 버튼
     button_clicked = st.button("🔍 내 포켓몬 찾기! 🔍")
-    
+
     # 결과 표시
     if button_clicked:
         if selected_mbti == "선택해주세요 👇":
             st.warning("⚠️ MBTI를 먼저 선택해주세요!")
         else:
             pokemon_data = MBTI_POKEMON[selected_mbti]
-            
-            # 로딩 애니메이션
+
+            # 로딩
             with st.spinner(f"✨ {selected_mbti} 유형의 포켓몬을 찾는 중..."):
                 img_url = get_pokemon_image(pokemon_data["english_name"])
-            
+
             # 풍선 효과
             st.balloons()
-            
+
             # 포켓몬 카드
             st.markdown(f"""
                 <div class="pokemon-card">
@@ -359,7 +357,7 @@ def main():
                     <p class="pokemon-name">{pokemon_data['emoji']} {pokemon_data['name']} {pokemon_data['emoji']}</p>
                 </div>
             """, unsafe_allow_html=True)
-            
+
             # 포켓몬 이미지
             if img_url:
                 col1, col2, col3 = st.columns([1, 2, 1])
@@ -367,7 +365,7 @@ def main():
                     st.image(img_url, width=250)
             else:
                 st.markdown(f"<h1 style='text-align:center; font-size:8em;'>{pokemon_data['emoji']}</h1>", unsafe_allow_html=True)
-            
+
             # 설명 카드
             st.markdown(f"""
                 <div style="background: linear-gradient(135deg, #fff, #f0f8ff); 
@@ -378,7 +376,7 @@ def main():
                     <p class="pokemon-desc">{pokemon_data['description']}</p>
                 </div>
             """, unsafe_allow_html=True)
-            
+
             # 특성 표시
             st.markdown("### 🏷️ 나의 특성")
             cols = st.columns(2)
@@ -389,7 +387,7 @@ def main():
                             {trait}
                         </div>
                     """, unsafe_allow_html=True)
-            
+
             # 메시지
             st.markdown(f"""
                 <div style="background: linear-gradient(135deg, {pokemon_data['type_color']}, #764ba2);
@@ -399,9 +397,9 @@ def main():
                     <h2 style="margin: 0; color: white;">💬 {pokemon_data['message']}</h2>
                 </div>
             """, unsafe_allow_html=True)
-            
+
             st.markdown("---")
-            
+
             # 공유 유도
             st.markdown("""
                 <div style="text-align:center; padding: 15px; 
@@ -412,12 +410,11 @@ def main():
                     </p>
                 </div>
             """, unsafe_allow_html=True)
-    
+
     # 전체 목록 보기
     with st.expander("📖 전체 MBTI 포켓몬 목록 보기 👇"):
         st.markdown("### 🎮 16가지 MBTI 포켓몬 리스트")
-        
-        # 4개씩 그리드 표시
+
         mbti_items = list(MBTI_POKEMON.items())
         for i in range(0, len(mbti_items), 4):
             cols = st.columns(4)
@@ -439,7 +436,7 @@ def main():
                                             font-size: 0.9em;">{data['name']}</div>
                             </div>
                         """, unsafe_allow_html=True)
-    
+
     # 푸터
     st.markdown("""
         <div class="footer">
